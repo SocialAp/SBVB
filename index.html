@@ -23,7 +23,6 @@
         <div id="unity-build-title">SBVB</div>
       </div>
     </div>
-    <script src="https://socialap.github.io/SBVB/Build/SBVB-Alpha.loader.js"></script>
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -57,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SBVB-Alpha.loader.js";
+      var loaderUrl = buildUrl + "/SBVB-AlphaWEB.loader.js";
       var config = {
-        dataUrl: buildUrl + "/SBVB-Alpha.data",
-        frameworkUrl: buildUrl + "/SBVB-Alpha.framework.js",
-        codeUrl: buildUrl + "/SBVB-Alpha.wasm",
+        dataUrl: buildUrl + "/SBVB-AlphaWEB.data",
+        frameworkUrl: buildUrl + "/SBVB-AlphaWEB.framework.js",
+        codeUrl: buildUrl + "/SBVB-AlphaWEB.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "BrossaudBlancho",
         productName: "SBVB",

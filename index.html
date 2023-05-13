@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>SBVB SIMULATEUR</title>
+    <title>SBVB</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -64,7 +64,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "BrossaudBlancho",
         productName: "SBVB",
-        productVersion: "0.1-Alpha",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
@@ -80,7 +80,7 @@
         // Avoid draining fillrate performance on mobile devices,
         // and default/override low DPI mode on mobile browsers.
         config.devicePixelRatio = 1;
-        unityShowBanner('ORDINATEUR: ADBLOCK PEUT BLOQUER LE SITE !');
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         canvas.style.width = "1920px";
         canvas.style.height = "1080px";
